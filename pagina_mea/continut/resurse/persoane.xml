@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persoane>
+    <persoana id="1">
+        <nume>Popescu</nume>
+        <prenume>Ion</prenume>
+        <varsta>23</varsta>
+        <adresa>
+            <strada>Strada Libertatii</strada>
+            <numar>24</numar>
+            <localitate>Iasi</localitate>
+            <judet>Iasi</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <telefon>0712345678</telefon>
+        <email>ion.popescu@gmail.com</email>
+        <cv_europass>
+            <experienta_profesionala>
+                <perioada>2021 - prezent</perioada>
+                <post>Programator</post>
+                <companie>Blabla</companie>
+                <oras>Iasi</oras>
+            </experienta_profesionala>
+            <educatie>
+                <perioada>2018 - 2021</perioada>
+                <nivel>Studii Superioare</nivel>
+                <institutie>Universitate</institutie>
+                <specializare>Informatica</specializare>
+            </educatie>
+        </cv_europass>
+    </persoana>
+    <persoana id="2">
+        <nume>Pop</nume>
+        <prenume>Vasile</prenume>
+        <varsta>48</varsta>
+        <adresa>
+            <strada>Strada</strada>
+            <numar>17</numar>
+            <localitate>Iasi</localitate>
+            <judet>Iasi</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <telefon>0712345987</telefon>
+        <email>vasile.pop@gmail.com</email>
+        <cv_europass>
+            <experienta_profesionala>
+                <perioada>2021 - prezent</perioada>
+                <post>Programator mic</post>
+                <companie>Blabla7</companie>
+                <oras>Iasi</oras>
+            </experienta_profesionala>
+        </cv_europass>
+    </persoana>
+    <persoana id="3">
+        <nume>Sarmn</nume>
+        <prenume>Alex</prenume>
+        <varsta>31</varsta>
+        <adresa>
+            <strada>Mmm</strada>
+            <numar>27</numar>
+            <localitate>Iasi</localitate>
+            <judet>Iasi</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <telefon>070</telefon>
+        <email>alex.sarmn@gmail.com</email>
+        <cv_europass>
+            <experienta_profesionala>
+                <perioada>2021</perioada>
+                <post>Programator mic</post>
+                <companie>Blabla7</companie>
+                <oras>Iasi</oras>
+            </experienta_profesionala>
+        </cv_europass>
+    </persoana>
+</persoane> 

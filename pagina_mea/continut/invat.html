@@ -1,0 +1,46 @@
+<script src="js/script.js"></script>
+<main>
+  <section id="sectiune1">
+    <h2>Secțiunea 1: Informații despre browser și sistemul de operare</h2>
+    <br />
+    <div id="info"></div>
+  </section>
+  <section id="sectiune2" style="text-align: center">
+    <h2>Secțiunea 2: Desen Canvas</h2>
+    <canvas
+      id="myCanvas"
+      width="800"
+      height="500"
+      style="border: 1px solid #000"
+    ></canvas>
+    <label for="contur">Culoare contur:</label>
+    <input type="color" id="contur" name="contur" value="#000000" />
+    <label for="umplere">Culoare umplere:</label>
+    <input type="color" id="umplere" name="umplere" value="#ffffff" />
+  </section>
+  <section id="sectiune3">
+    <h2>Secțiunea 3: Modificarea dinamică a unui tabel</h2>
+    <p>
+      Specificați poziția (linie/coloană) din tabel la care se face inserarea,
+      selectați o culoare de fundal și apăsați butonul corespunzător pentru a
+      insera o linie nouă sau o coloană nouă.
+    </p>
+    <label for="pozitie">Poziție (linie/coloană):</label>
+    <input type="text" id="pozitie" name="pozitie" />
+    <label for="culoare">Culoare de fundal:</label>
+    <input type="color" id="culoare" name="culoare" value="#ffffff" />
+    <button id="inserareLinieBtn">Inserare linie nouă</button>
+    <button id="inserareColoanaBtn">Inserare coloană nouă</button>
+    <br /><br />
+    <table id="tabel">
+      <tr>
+        <th>Coloana 1</th>
+        <th>Coloana 2</th>
+      </tr>
+      <tr>
+        <td>Valoare 1</td>
+        <td>Valoare 2</td>
+      </tr>
+    </table>
+  </section>
+</main>

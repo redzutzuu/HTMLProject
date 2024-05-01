@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        table, th, td {
+          border:1px solid black;
+        }
+        </style>
+    <body>
+        <h1>Programare web</h1>
+        <h2>Limbajul HTML</h2>
+        <p><strong>HTML (HyperText Markup Language)</strong> este un <em>limbaj de marcare</em> utilizat pentru a crea pagini web.</p>
+        <p>Un exemplu de cod html il gasiti in imaginea urmatoare care se afla la adresa <a href="https://upload.wikimedia.org/wikipedia/commons/e/e4/HTML_logo.png"> https://upload.wikimedia.org/wikipedia/commons/e/e4/HTML_logo.png</a></p>
+        <p>Imaginea are atributul <span style="font-family: consolas">height</span> de valoare 147.</p>
+        <img src="HTML_logo.png" style="height:147px;"></img>
+        <p style="margin-bottom: 0;"><strong><em>Tag-urile</em></strong> html cele mai utilizate in realizarea tabelelor sunt:</p>
+        <table style="width: 11%; margin-bottom: 0;">
+        <tr>
+            <td><span style="font-family: consolas">table</span></td>
+            <td>defineste un tabel</td>
+        </tr>
+        <tr>
+            <td><span style="font-family: consolas">tr</span></td>
+            <td>un rand intr-un tabel</td>
+        </tr>
+        <tr>
+            <td><span style="font-family: consolas">td</span></td>
+            <td>o celula intr-un tabel</td>
+        </tr>
+        </table>
+        <span><strong><em>Observatie:</em></strong> Pentru a pune un contur unui tabel se poate (dar nu se recomanda) sa se puna atributul <span style="font-family: consolas">border</span>="1".</span>
+        <br/><span>La validare va da eroarea: <em>The border attribute on the table element is obsolete.</em></span>
+        <br></br>
+        <span>Formularele se pot crea cu ajutorul tag-ului <span style="font-family: consolas">form</span> care contine tag-urile: <span style="font-family: consolas">input, textarea, label, select, option, button.</span></span>
+        <br/><span>Pentru mai multe detalii consultati cursul sau tutorialul <a href="https://www.w3schools.com/html/html_forms.asp"> HTML Forms and Inputs</a> de la adresa <a href="https://www.w3schools.com/html/html_forms.asp"> https://www.w3schools.com/html/html_forms.asp</a></span>
+        <br/><span>Un exemplu de formular este urmatorul: </span>
+        <form>
+            <label for="nume">Nume: </label>
+            <input type="text" id="nume" name="nume" value=""><br>
+            <label for="prenume">Prenume: </label>
+            <input type="text" id="prenume" name="prenume" value=""><br>
+            <label for="parola">Parola: </label>
+            <input type="password" id="parola" name="parola" value=""><br>
+            <label for="culoare">Culoarea preferata: </label>
+            <select id="culoare" name="culoare">
+                <option value="rosu">rosu</option>
+                <option value="galben">galben</option>
+                <option value="albastru">albastru</option>
+                <option value="verde">verde</option>
+            </select><br>
+            <label for="Descriere">Descriere: </label>
+            <textarea name="Descriere" rows="10" cols="30">Pisica se juca in gradina.</textarea><br>
+            <input type="checkbox" id="check" name="check" value="dasaunu">
+            <label for="dasaunu"> Sunt de acord cu conditiile</label><br>
+            <br/><input type="submit" value="Inregistreaza">
+        </form>
+        <br></br>
+        <p>Pentru a crea liste se pot folosi tag-urile:</p>
+        <ol type="i">
+            <li><span style="font-family: consolas">ul</span> - lista neordonata</li>
+            <li><span style="font-family: consolas">ol</span> - lista ordonata</li>
+            <li><span style="font-family: consolas">li</span> - item din lista</li>
+            <li><span style="font-family: consolas">dl</span> - lista cu descrieri</li>
+            <li><span style="font-family: consolas">dt</span> - termen dintr-o lista cu descrieri</li>
+            <li><span style="font-family: consolas">dd</span> - descrierea dintr-o lista cu descrieri</li>
+          </ol> 
+        <br></br>
+        <span>Pentru a insera un document HTML in altul se poate folosi tag-ul <span style="font-family: consolas">&lt;iframe&gt;</span></span>
+        <br/><span>Astfel, exemplul de mai jos insereaza continutul de la adresa <a href="https://html.spec.whatwg.org/multipage/"> https://html.spec.whatwg.org/multipage/</a></span>
+        <br/><iframe src="https://html.spec.whatwg.org/multipage/" title="description" width="1000" height="300"></iframe>
+        <hr></hr>
+        <p>&copy; 2024. Programare web.</p>
+    </body>
+</html>

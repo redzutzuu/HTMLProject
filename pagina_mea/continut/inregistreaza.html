@@ -1,0 +1,62 @@
+<main>
+  <h2>Înregistrează-te</h2>
+
+  <fieldset>
+    <legend>Informații generale</legend>
+    <label for="nume_utilizator">Nume utilizator:</label>
+    <input type="text" id="nume_utilizator" name="nume_utilizator" /><br />
+    <label for="parola">Parola:</label>
+    <input type="password" id="parola" name="parola" /><br />
+    <label for="nume">Nume:</label>
+    <input type="text" id="nume" name="nume" /><br />
+    <label for="prenume">Prenume:</label>
+    <input type="text" id="prenume" name="prenume" /><br />
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" /><br />
+    <label for="telefon">Telefon:</label>
+    <input type="tel" id="telefon" name="telefon" /><br />
+  </fieldset>
+
+  <fieldset>
+    <legend>Informații personale</legend>
+    <label for="sex">Sexul:</label>
+    <select id="sex" name="sex">
+      <option value="masculin">Masculin</option>
+      <option value="feminin">Feminin</option></select
+    ><br />
+
+    <label for="mancare_preferata">Mâncarea preferată:</label>
+    <input list="mancare_preferata" name="mancare_preferata" />
+    <datalist id="mancare_preferata">
+      <option value="Pizza"></option>
+      <option value="Paste"></option>
+      <option value="Salată"></option></datalist
+    ><br />
+
+    <label for="culoare_preferata">Culoarea preferată:</label>
+    <input type="color" id="culoare_preferata" name="culoare_preferata" /><br />
+
+    <label for="data_nastere">Data nașterii:</label>
+    <input type="date" id="data_nastere" name="data_nastere" /><br />
+
+    <label for="ora_nastere">Ora nașterii:</label>
+    <input type="time" id="ora_nastere" name="ora_nastere" /><br />
+
+    <label for="varsta">Vârsta:</label>
+    <input type="range" id="varsta" name="varsta" min="1" max="100" /><br />
+
+    <label for="adresa_pagina_personala">Adresa paginii personale:</label>
+    <input
+      type="url"
+      id="adresa_pagina_personala"
+      name="adresa_pagina_personala"
+    /><br />
+
+    <label for="descriere">Descriere:</label>
+    <textarea id="descriere" name="descriere" rows="4"></textarea><br />
+  </fieldset>
+  <br />
+  <button type="button" disabled>Înregistrează</button>
+  <br />
+  <p><a href="index.html">Mergi la pagina principală</a></p>
+</main>

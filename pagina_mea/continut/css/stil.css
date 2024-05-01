@@ -1,0 +1,321 @@
+@media only screen and (max-width: 600px) {
+  /* Ascunde textul de navigare */
+  nav button {
+    display: none;
+  }
+
+  /* meniu mobil */
+  nav {
+    display: block;
+  }
+
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  nav li {
+    margin-bottom: 10px;
+  }
+
+  nav a {
+    display: block;
+    padding: 10px;
+    background-color: #f4f4f4;
+    text-decoration: none;
+    color: #333;
+  }
+}
+
+@media print {
+  /* ascunde elementele de navigare */
+  nav {
+    display: none;
+  }
+
+  /*stiluri specifice pentru imprimare */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+    line-height: 1.5;
+  }
+
+  h1,
+  h2 {
+    page-break-after: avoid;
+  }
+}
+
+/* stiluri implicite */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* bara de meniu */
+nav {
+  background-color: #6b4141;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav button {
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #cf349c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: 2px solid #fff;
+}
+
+nav button:hover {
+  background-color: #ff01b3;
+}
+
+/* titlu */
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  color: #ff0000;
+}
+
+/* continut */
+section {
+  padding: 20px;
+  background-color: #f8f8f8; /* fundal continut */
+}
+
+/* fundal pagina */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #a08585; /* culoarea fundalului */
+  padding: 20px;
+}
+
+a {
+  color: #2bff00;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* inregistreaza.html */
+
+h2 {
+  color: #00d9ff; /* culoarea titlului */
+  text-align: center;
+  position: relative;
+}
+
+h2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  z-index: -1;
+}
+
+fieldset {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+legend {
+  font-weight: bold;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 3px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+  margin-top: 10px;
+}
+
+button[type="button"],
+button[type="submit"] {
+  background-color: #15ff00;
+  color: #fff;
+  padding: 15px 30px; /* dimensiuni mai mari pentru padding */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 18px; /* dimensiunea textului */
+}
+
+button[type="button"]:hover,
+button[type="submit"]:hover {
+  background-color: #064409;
+}
+
+p {
+  text-align: center;
+}
+
+p a {
+  color: #00ff15; /* culoarea textului */
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline; /* efect de subliniere la hover */
+  color: #125f0f; /* culoarea textului la hover */
+}
+
+/* despre.html */
+
+section {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 30px; /* spatiu intre sectiuni */
+  border-radius: 10px; /* rotunjirea colturilor */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  margin-bottom: 15px;
+  color: #000;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #000;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* formatarea tabelului */
+table {
+  width: 50%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+td:first-child {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* video.html */
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.video {
+  margin: 10px;
+}
+
+/* desen.html */
+
+/* stil svg */
+svg {
+  display: block;
+  margin: 0 auto;
+}
+
+/* stil animatii */
+.minge {
+  fill: #ff00bf;
+  animation: miscare-minge 2s infinite alternate;
+}
+
+@keyframes miscare-minge {
+  from {
+    transform: translateX(-50px);
+  }
+  to {
+    transform: translateX(50px);
+  }
+}
+
+.jucator {
+  fill: #ec0202;
+  transform: perspective(500px) rotateX(45deg);
+}
+
+.teren {
+  transition: fill 0.5s ease;
+}
+
+.teren:hover {
+  fill: #2ecc71; /* Noua culoare la trecerea mouse-ului peste teren */
+}

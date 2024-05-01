@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Premier League și istoria sa</title>
+    <link rel="icon" href="favicon/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/stil.css" />
+    <script src="js/script.js"></script>
+    <script src="js/cumparaturi.js"></script>
+    <script src="js/persoane.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        schimbaContinut("acasa");
+      });
+    </script>
+  </head>
+  <body>
+    <header>
+      <h1>Premier League și istoria sa</h1>
+      <br />
+      <nav>
+        <a href="#" onclick="schimbaContinut('acasa')">Acasă</a>
+        <a href="#" onclick="schimbaContinut('desen')">Desen</a>
+        <a href="#" onclick="schimbaContinut('despre')">Despre</a>
+        <a href="#" onclick="schimbaContinut('inregistreaza')">Înregistrează</a>
+        <a
+          href="#"
+          onclick="schimbaContinut('invat', 'js/script.js', 'initializeazaPagina')"
+          >Învăț JS</a
+        >
+        <a
+          href="#"
+          onclick="schimbaContinut('persoane', 'js/persoane.js', 'incarcaPersoane')"
+          >Persoane</a
+        >
+        <a href="#" onclick="schimbaContinut('verifica')">Verifică</a>
+        <a href="#" onclick="schimbaContinut('video')">Video</a>
+        <a href="#" onclick="schimbaContinut('cumparaturi')">Cumpărături</a>
+      </nav>
+    </header>
+    <main>
+      <section id="continut"></section>
+    </main>
+    <footer>
+      <p>&copy; 2024. Programare web - Alexandru Spătaru</p>
+    </footer>
+  </body>
+</html>
